@@ -1,2 +1,2 @@
 # MashBoxBridge
- Bridging systems to connect front end and back end
+ Bridging systems to connectivity
