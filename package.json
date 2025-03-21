@@ -1,22 +1,13 @@
 {
   "name": "com.mashgames.mashboxbridge",
   "version": "1.0.0",
-  "description": "MashBoxBridge for Unity",
+  "description": "MashBoxBridge package for Unity",
+  "unity": "2022.3.9",
+  "keywords": ["unity", "game", "mashboxbridge"],
+  "author": "Mash Games",
+  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MashGames/mashboxbridge.git"
-  },
-  "keywords": [
-    "unity",
-    "mashboxbridge",
-    "game",
-    "mashgames"
-  ],
-  "author": "Mash Games",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"No tests specified\""
+    "url": "git+https://github.com/MashGames/MashBoxBridge.git"
   }
 }
