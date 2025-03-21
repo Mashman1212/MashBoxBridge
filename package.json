@@ -2,7 +2,7 @@
   "name": "com.mashgames.mashboxbridge",
   "version": "1.0.0",
   "description": "MashBoxBridge package for Unity",
-  "unity": "2022.3.9",
+  "unity": "2022.3.9f1",
   "keywords": ["unity", "game", "mashboxbridge"],
   "author": "Mash Games",
   "dependencies": {},
