@@ -1,4 +1,4 @@
-﻿namespace MashBoxBridge
+﻿namespace MashBoxBridge.Common
 {
     public interface ISkillIssue
     {
