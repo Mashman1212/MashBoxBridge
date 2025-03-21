@@ -1,0 +1,22 @@
+{
+  "name": "com.mashgames.mashboxbridge",
+  "version": "1.0.0",
+  "description": "MashBoxBridge for Unity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashGames/mashboxbridge.git"
+  },
+  "keywords": [
+    "unity",
+    "mashboxbridge",
+    "game",
+    "mashgames"
+  ],
+  "author": "Mash Games",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  }
+}
