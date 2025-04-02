@@ -63,4 +63,25 @@ namespace MashBoxBridge.Common.Commands
         }
     }
     
+    public class PlayerEmoteCommand : CommandBase
+    {
+        private readonly IPlayerEmote _playerEmote;
+        public PlayerEmoteCommand(IPlayerEmote playerEmote, string actionType, string parameters = null) : base(actionType, parameters)
+        {
+            _playerEmote = playerEmote;
+        }
+
+        public override void Execute()
+        {
+            if(_playerEmote != null)
+                _playerEmote.Play(int.Parse(_parameters));
+        }
+
+        public override void Undo()
+        {
+            //if(_sessionMarker != null)
+            //    _sessionMarker.DisableDrone();
+        }
+    }
+    
 }
