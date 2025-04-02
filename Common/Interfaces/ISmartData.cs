@@ -16,7 +16,6 @@ namespace MashBoxBridge.Common.Interfaces
         bool Initialized { get; }
         
         DataStyle Style { get; }
-        void OnEnable();
         void OnChanged();
         string GetValueText();
         void SaveData();
