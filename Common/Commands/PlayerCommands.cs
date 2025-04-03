@@ -38,8 +38,7 @@ namespace MashBoxBridge.Common.Commands
 
         public override void Undo()
         {
-            //if(_sessionMarker != null)
-            //    _sessionMarker.DisableDrone();
+            
         }
     }
     public class RespawnCommand : CommandBase
